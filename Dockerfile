@@ -26,7 +26,7 @@ RUN mkdir /var/tmp/webapp
 ADD ./ /var/tmp/webapp
 RUN cd /var/tmp/webapp && mvn package && cp /var/tmp/webapp/target/CIJD.war /var/tmp/tomcat/apache-tomcat-8.0.33/webapps
 
-EXPOSE 8080
+EXPOSE 8808
 
 CMD ["./var/tmp/tomcat/apache-tomcat-8.0.33/bin/catalina.sh","run"]
 
