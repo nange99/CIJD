@@ -11,7 +11,7 @@ RUN apt-get install -y openjdk-8-jdk && apt-get install -y wget
 #安装tomcat
 
 RUN mkdir /var/tmp/tomcat
-RUN wget -P /var/tmp/tomcat http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.30/bin/apache-tomcat-8.0.33.tar.gz
+RUN wget -P /var/tmp/tomcat http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.0.43/bin/apache-tomcat-8.0.43.tar.gz
 RUN tar xzf /var/tmp/tomcat/apache-tomcat-8.0.33.tar.gz -C /var/tmp/tomcat
 RUN rm -rf /var/tmp/tomcat/apache-tomcat-8.0.33.tar.gz 
 
