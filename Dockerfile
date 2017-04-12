@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM daocloud.io/library/ubuntu:latest
 
 MAINTAINER Silva Song "silva.song@aliyun.com"
 
